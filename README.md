@@ -1,10 +1,8 @@
 # **Software Engineering Group Project: Group 14**  
  **Team Members:** Conall Keane, Alex Kennedy, Marina Boyero, John Keaney, David Kavanagh, Paul Lee.  
  **Demonstrator:** Alberto Rojas-Salazar.  
-**Client:** Gerard Lacey: Surewash.
+**Client:** Gerard Lacey: Sure Wash.
 
-## Folder Information
-We kept the original code in the "OLD" folder for when we were developing the app in React Native Expo, but we had to change framework to Cordova as OpenCV was not compatible with it. Our working Cordova project is housed in the "SureCoverage" folder and the source code is contained within the "www" folder.
 
 ## App Installation.
 If you have an android phone, then simply download the "surecoverage.apk" file to your phone and you should be able to run it!
