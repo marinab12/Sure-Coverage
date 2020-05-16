@@ -1,7 +1,7 @@
 # **Software Engineering Group Project: Group 14**  
  **Team Members:** Conall Keane, Alex Kennedy, Marina Boyero, John Keaney, David Kavanagh, Paul Lee.  
  **Demonstrator:** Alberto Rojas-Salazar.  
-**Client:** Gerard Lacey: Sure Wash.
+**Client:** Gerard Lacey: Surewash.
 
 
 ## App Installation.
