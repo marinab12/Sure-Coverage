@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+		
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		
+		<title>SureCoverage</title>
+		
+	</head>
+	
+    <body>
+
+    	<div class="page" id="Loading">
+			
+			<div class="sk-cube-grid">
+				<div class="sk-cube sk-cube1"></div>
+				<div class="sk-cube sk-cube2"></div>
+				<div class="sk-cube sk-cube3"></div>
+				<div class="sk-cube sk-cube4"></div>
+				<div class="sk-cube sk-cube5"></div>
+				<div class="sk-cube sk-cube6"></div>
+				<div class="sk-cube sk-cube7"></div>
+				<div class="sk-cube sk-cube8"></div>
+				<div class="sk-cube sk-cube9"></div>
+			</div>
+			
+			<h1>
+				LOADING...
+			</h1>
+			
+		</div>
+		
+    	<div class="page" id="Home" >
+			
+			<div id="header">
+				
+				<h1>
+					SureCoverage, by SureWash TCD
+				</h1>
+				
+				<img id="logo" />
+				
+			</div>
+			
+			<ul id="menu">
+				
+				<li class="menuItem">
+					<button class="menuButton" id = "slideshowbutton">
+						Hand Washing Tutorial
+					</button>
+				</li>
+				<li class="menuItem">
+					<button class="menuButton" onclick="window.location.href = 'https://www2.hse.ie/coronavirus/';">
+						Info on COVID-19
+					</button>
+				</li>
+				<li class="menuItem">
+					<button class="menuButton" onclick="window.location.href = 'https://surewash.com/terms-of-service/';">
+						Terms & Conditions
+					</button>
+				</li>
+				<li class="menuItem">
+					<button class="menuButton" onclick="window.location.href = 'https://surewash.com/privacy-policy/';">
+						Privacy Policy
+					</button>
+				</li>
+				<li class="menuItem">
+					<button id="beginButton">
+						BEGIN
+					</button>
+				</li>
+				
+			</ul>
+			
+    	</div>
+    	
+    	<div class="page" id="Camera">
+    		
+	    	<video id="cameraStream"></video>
+	    	
+	    	<div id="overlay">
+	    		
+	    		<h2 id="overlayText"></h2>
+	    		
+	    	</div>
+	    	
+	    </div>
+		
+		<div class="page" id="Result">
+			
+			<button id="resultButton">
+				<span id="resultText">BACK</span>
+			</button>
+			
+			<canvas id="front"></canvas>
+			
+			<canvas id="back"></canvas>
+			
+		</div>
+
+		<div class="page" id="Slideshow">
+			
+			<div id="slide">
+				<h2 id="slideIndex"></h2>
+				<img id="slideImg" />
+				<h2 id="slideSubtitle"></h2>
+			</div>
+			
+		</div>		
+		<button id="homeButton">
+			HOME
+		</button>
+		
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/opencv.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        
+    </body>
+    
+</html>
